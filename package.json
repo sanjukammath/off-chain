@@ -1,0 +1,28 @@
+{
+  "name": "off-chain",
+  "version": "1.0.0",
+  "description": "this is the implementation of peer node that handles off-chain transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjukammath/off-chain.git"
+  },
+  "author": "Sanjay S B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjukammath/off-chain/issues"
+  },
+  "homepage": "https://github.com/sanjukammath/off-chain#readme",
+  "dependencies": {
+    "dat-swarm-defaults": "^1.0.2",
+    "discovery-swarm": "^6.0.0",
+    "express": "^4.17.1",
+    "get-port": "^5.0.0",
+    "portfinder": "^1.0.21",
+    "save": "^2.4.0",
+    "web3": "^1.2.1"
+  }
+}
